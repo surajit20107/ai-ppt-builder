@@ -11,7 +11,7 @@ export const Route = createFileRoute("/_auth/login")({
 export function Login() {
   const { redirect } = Route.useSearch();
   return (
-    <div className="items-center-justify-center p-4k flex min-h-screen">
+    <div className="items-center justify-center p-4k flex min-h-screen">
       <div className="w-full max-w-md">
         <div className="glass space-y-6 rounded-3xl p-8">
           {/* Logo */}
