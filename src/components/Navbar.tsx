@@ -1,8 +1,8 @@
-import { authClient } from "#/lib/auth-client.ts";
+import { authClient } from "@/lib/auth-client.ts";
 import { Link, useRouter } from "@tanstack/react-router";
 import { LogOut, Presentation, User } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "#/components/ui/avatar.tsx";
-import { Button } from "#/components/ui/button.tsx";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar.tsx";
+import { Button } from "@/components/ui/button.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,8 +10,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "#/components/ui/dropdown-menu.tsx";
-import { ThemeToggle } from "#/components/theme-toggle.tsx";
+} from "@/components/ui/dropdown-menu.tsx";
+import { ThemeToggle } from "@/components/theme-toggle.tsx";
 
 export function Navbar() {
   const router = useRouter();
